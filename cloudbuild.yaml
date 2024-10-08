@@ -1,8 +1,0 @@
-build:
-  steps:
-    - name: ubuntu
-      args:
-        - echo
-        - hello world
-  serviceAccount: projects/macro-shore-437411-s0/serviceAccounts/327526636981-compute@developer.gserviceaccount.com
-  logsBucket: 'gs://your-logs-bucket'
