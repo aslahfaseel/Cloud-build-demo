@@ -5,9 +5,5 @@ github:
   name: Cloud-build-demo
   push:
     branch: ^main$
-triggerTemplate:
-  projectId: macro-shore-437411-s0
-  repoName: Cloud-build-demo
-  branchName: ^main$
 serviceAccount: projects/macro-shore-437411-s0/serviceAccounts/327526636981-compute@developer.gserviceaccount.com
 filename: cloudbuild.yaml
