@@ -1,0 +1,5 @@
+steps:
+  - args:
+      - echo
+      - hello world
+    name: ubuntu
