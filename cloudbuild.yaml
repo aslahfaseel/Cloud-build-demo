@@ -1,3 +1,14 @@
+name: Docker-Build-Trigger
+description: "Trigger for inline build configuration"
+github:
+  owner: aslahfaseel
+  name: Cloud-build-demo
+  push:
+    branch: ^main$
+triggerTemplate:
+  projectId: macro-shore-437411-s0
+  repoName: Cloud-build-demo
+  branchName: ^main$
 build:
   steps:
     - name: ubuntu
@@ -6,15 +17,6 @@ build:
         - hello world
   serviceAccount: projects/macro-shore-437411-s0/serviceAccounts/327526636981-compute@developer.gserviceaccount.com
   options:
-    logging: CLOUD_LOGGING_ONLY  # Specify Cloud Logging only to resolve the error
+    logging: CLOUD_LOGGING_ONLY
 
-createTime: "2024-10-08T09:22:50.953628196Z"
-github:
-  name: Cloud-build-demo
-  owner: aslahfaseel
-  push:
-    branch: ^main$
-id: e5970f85-fd11-434f-8d0a-8b30ffa452fb
-name: Docker-Build-Trigger
-resourceName: projects/macro-shore-437411-s0/locations/global/triggers/e5970f85-fd11-434f-8d0a-8b30ffa452fb
 
