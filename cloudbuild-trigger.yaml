@@ -1,13 +1,8 @@
-name: Docker-Build-Trigger
-description: "Trigger for inline build configuration"
+filename: cloudbuild.yaml
 github:
-  owner: aslahfaseel
   name: Cloud-build-demo
+  owner: aslahfaseel
   push:
     branch: ^main$
-triggerTemplate:
-  projectId: macro-shore-437411-s0
-  repoName: Cloud-build-demo
-  branchName: ^main$
+name: cloudbuild-triggernew
 serviceAccount: projects/macro-shore-437411-s0/serviceAccounts/327526636981-compute@developer.gserviceaccount.com
-filename: cloudbuild.yaml
