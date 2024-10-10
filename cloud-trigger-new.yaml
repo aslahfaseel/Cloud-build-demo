@@ -1,0 +1,15 @@
+build:
+  steps:
+  - args:
+    - echo
+    - hello world
+    name: ubuntu
+github:
+  name: Cloud-build-demo
+  owner: aslahfaseel
+  push:
+    branch: ^main$
+id: 324c8411-c475-47a4-b05a-4a50c6fc9408
+name: cloud-trigger-new
+resourceName: projects/macro-shore-437411-s0/locations/us-central1/triggers/324c8411-c475-47a4-b05a-4a50c6fc9408
+serviceAccount: projects/macro-shore-437411-s0/serviceAccounts/327526636981-compute@developer.gserviceaccount.com
